@@ -2437,91 +2437,96 @@ table {
 .fa-bomb:before {
   content: "\f1e2"; }
 
-/* line 26, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
-body, html {
-  height: 100%; }
-
 /* line 30, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 body {
   font-size: 14px;
   color: #b0b5b8;
-  font-family: 'Open Sans', sans-serif;
-  background-color: #efefef; }
+  font-family: 'Open Sans', sans-serif; }
 
-/* line 37, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 35, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 h1, h2, h3, h4 {
   font-family: 'Roboto', sans-serif;
   color: black;
-  font-weight: 400; }
+  font-weight: 300; }
 
-/* line 43, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 41, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 ul {
   margin: 0;
   padding: 0; }
-  /* line 46, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+  /* line 44, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
   ul li {
     list-style: none; }
 
-/* line 51, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 49, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+body, html {
+  height: 100%; }
+
+/* line 53, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 a {
   text-decoration: none;
   color: #b0b5b8; }
 
-/* line 56, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 57, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+.header {
+  width: 100%;
+  background: #051424;
+  background: linear-gradient(135deg, #051424 0%, #253168 100%); }
+
+/* line 63, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .aside {
   float: left;
   padding: 0 1em; }
 
-/* line 65, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 70, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .categories {
   text-transform: uppercase;
   margin-bottom: 1em; }
-  /* line 68, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+  /* line 73, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
   .categories a {
     width: 100%;
     display: block;
     transition: all 200ms linear;
     border-bottom: 2px solid #efefef; }
-    /* line 73, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+    /* line 78, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
     .categories a:hover {
       color: #0078b5;
       border-bottom: 2px solid #0078b5; }
 
-/* line 80, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 85, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .content {
   padding: 2em;
   margin: 0 auto; }
 
-/* line 85, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 90, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .container {
-  width: 960px;
+  width: 1100px;
   display: block;
   margin: 0 auto;
   min-height: 100%;
   margin-bottom: -173px;
   padding-bottom: 173px; }
 
-/* line 94, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 99, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .footer {
   height: 173px; }
 
-/* line 97, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 102, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .footer-container {
   width: 960px;
   display: block;
   margin: 0 auto; }
 
-/* line 103, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 109, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .logo {
   display: block;
-  margin: 0 auto; }
+  float: left; }
 
-/* line 108, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 113, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .aside-title {
   margin: 2em 0 1em 0;
   text-transform: uppercase; }
 
-/* line 113, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 117, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .projects-thumbs {
   padding-left: 2em;
   padding-top: 2em;
@@ -2530,90 +2535,105 @@ a {
   min-height: 300px;
   width: 80%; }
 
-/* line 122, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 126, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .thumb {
-  width: 40%;
-  min-height: 160px;
+  width: 800px;
   padding: 1em;
   background-color: #FFF;
   position: relative;
   padding-bottom: 4.5em;
-  margin-right: 3em;
   margin-bottom: 2em;
   border-bottom: 3px solid #b0b5b8;
+  border-top: 1px solid #e7eaed;
+  border-left: 1px solid #e7eaed;
+  border-right: 1px solid #e7eaed;
   transition: all 200ms linear;
-  float: left;
-  height: 170px; }
-  /* line 136, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+  float: right;
+  min-height: 100px; }
+  /* line 140, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
   .thumb:hover {
     border-bottom: 3px solid #0078b5; }
-  /* line 140, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+  /* line 143, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
   .thumb .project-name {
-    margin: 0px;
-    font-size: 1.5em; }
-    /* line 144, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+    margin: 0px; }
+    /* line 145, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
     .thumb .project-name a {
-      color: black; }
-  /* line 149, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+      font-size: 1.3em;
+      color: #222222; }
+      /* line 148, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+      .thumb .project-name a:hover {
+        color: #222222; }
+      /* line 151, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+      .thumb .project-name a:link {
+        color: #222222; }
+  /* line 157, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
   .thumb .project-category {
     color: #ccd5d9;
     text-transform: capitalize; }
-  /* line 154, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+  /* line 161, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
   .thumb .project-footer {
     position: absolute;
     bottom: 10px;
     left: 0;
     right: 0;
     text-align: center; }
-    /* line 160, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+    /* line 167, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
     .thumb .project-footer i {
       font-size: 2.5em; }
-    /* line 163, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+    /* line 170, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
     .thumb .project-footer .project-link {
       transition: all 200ms linear; }
-      /* line 165, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+      /* line 172, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
       .thumb .project-footer .project-link:hover {
         color: #0078b5; }
-  /* line 171, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+  /* line 177, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
   .thumb img {
     width: 100%;
     height: 200px;
     background-color: gray; }
-  /* line 177, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+  /* line 182, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
   .thumb .project-description {
     margin: 0;
     width: 100%; }
 
-/* line 183, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 188, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .prey-quote {
   width: 500px;
   display: block;
   margin: 0 auto;
   padding: 2em 0;
-  text-transform: uppercase;
-  color: #b0b5b8;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #c5dbe9;
   text-align: center; }
 
-/* line 193, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
-.footer {
-  width: 100%; }
+/* line 198, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+.prey-quote-author {
+  float: right;
+  color: #FFF;
+  margin-top: 0; }
 
-/* line 197, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 204, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+.footer {
+  width: 100%;
+  background-color: #051424; }
+
+/* line 208, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .left-container, .right-container {
   width: 50%;
   height: 4em; }
 
-/* line 202, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 212, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .left-container {
   float: left;
   background-color: #31373D; }
 
-/* line 207, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 216, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .right-container {
   float: right;
   background-color: #0078b5; }
 
-/* line 212, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 220, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .base-bottom {
   background-color: #fff;
   padding-top: 1em;
@@ -2621,36 +2641,31 @@ a {
   width: 100%;
   padding-bottom: 2em; }
 
-/* line 220, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 227, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .git-info, .twitter-info {
   padding: 0.3em; }
 
-/* line 224, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 230, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .twitter-info {
-  position: relative; }
-  /* line 226, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
-  .twitter-info a {
-    padding-left: 55px; }
-  /* line 229, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+  font-size: 2em;
+  color: #fff; }
+  /* line 233, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
   .twitter-info i {
-    font-size: 2em;
-    left: 25px;
-    top: 15px;
-    position: absolute; }
+    padding-left: 1em; }
 
-/* line 238, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 237, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .git-info {
   float: right; }
-  /* line 240, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+  /* line 239, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
   .git-info p {
     padding-right: 2em; }
 
-/* line 245, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 243, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .work {
   text-align: left;
   display: inline-block; }
 
-/* line 250, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
+/* line 247, /Users/raliste/code/prey/public/github-prey/source/assets/stylesheets/application.scss */
 .prey {
   text-align: right;
   display: inline-block;
