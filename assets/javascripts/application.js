@@ -23,15 +23,18 @@
 $.getJSON( "https://api.github.com/orgs/prey/repos", {})
   .success(function(data){
 
+    var repos = $.map(data, function(item){
+      return item.fork == false ? item : null
+    });
+
     var categories = [];
     var repo = 0;
-    for (var i = 0; i < data.length; i++) {
-      categories.push(data[i].language);
+    for (var i = 0; i < repos.length; i++) {
+      categories.push(repos[i].language);
       repo+=1;
     };
     $('.repos').append(repo);
 
-    console.log(repo);
     var uniqueCat = UniqueValues(categories);
 
     for (var i = 0; i < uniqueCat.length; i++) {
@@ -39,7 +42,7 @@ $.getJSON( "https://api.github.com/orgs/prey/repos", {})
       $(menuItem).appendTo(".filter");
     };
 
-    $.each(data, function(i, item){
+    $.each(repos, function(i, item){
         var content = "<div class='thumb' data-category='" + item.language + "'><h1 class='project-name'>" +
           "<a href=" + item.html_url + " target='_blank'>" + item.name + "</a></h1>" +
           "<h2 class='project-category'>" + item.language + "</h2>" +
